@@ -9,5 +9,6 @@ var AccountAPI = require('./account.api');
 
 router.post('/account/login', AccountAPI.login);
 router.post('/account/username', AccountAPI.checkUsername);
+router.post('/account/new', AccountAPI.createNewAccount)
 
 module.exports = router;
